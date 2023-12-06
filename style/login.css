@@ -1,0 +1,14 @@
+#logInBtn{
+    font-size: x-large;
+    font-weight: 600;
+    background-color: black; 
+    color: white;
+}
+#logInBtn:hover{
+    background-color: #1e1e1e;
+    color: white;
+}
+#logInBtn:active{
+    background-color: #101010;
+    color: #C83F2B;
+}

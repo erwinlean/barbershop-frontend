@@ -1,0 +1,52 @@
+input:hover,
+input:focus {
+    border-color: black; 
+    outline: none;
+    box-shadow: 0 0 0 1px black;
+}
+button:hover,
+button:focus {
+    background-color: black;
+    outline: none;
+    box-shadow: 0 0 0 1px black;
+}
+body > section > header > div:nth-child(2) > a{
+    font-weight: 900;
+}
+body > section > header > div:nth-child(2) > a:hover{
+    color: black !important;
+}
+
+.logout {
+    border: none;
+    margin-right: 30px;
+    background-color: transparent;
+    font-weight: bold;
+    color: white;
+}
+.logout:focus,
+.logout:hover {
+    background-color: transparent !important;
+    border: none !important;
+    outline: none;
+    color: black;
+    box-shadow: 0 0 0 0 transparent;
+}
+
+.checked {
+    background-color: black;
+    color: black;
+}
+.unChecked{
+    background-color: white;
+    color: white;
+}
+
+/* Estilo para los checkbox */
+button{
+    border-color: black;
+}
+
+body > section > div > div:nth-child(3) > div:nth-child(5){
+    align-self: center;
+}
